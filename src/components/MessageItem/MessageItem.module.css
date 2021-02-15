@@ -1,0 +1,27 @@
+.myMessage {
+    width: fit-content;
+    max-width: 80%;
+    text-align: right;
+    word-wrap: break-word;
+    background: #b4fbea;
+    border-radius: 1rem 0 1rem 1rem;
+    padding: .7rem 1rem;
+    margin: 1rem 0 1rem auto;
+}
+.otherMessage {
+    width: fit-content;
+    max-width: 80%;
+    word-wrap: break-word;
+    background: #fff;
+    border-radius: 0 1rem 1rem 1rem;
+    padding: .7rem 1rem;
+    margin: 1rem 0;
+}
+.myMessage p, .otherMessage p {
+    text-align: left;
+    white-space: pre-line;
+}
+.myMessage span, .otherMessage span {
+    color: #555;
+    font-size: .7rem;
+}

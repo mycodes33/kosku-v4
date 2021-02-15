@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    background: #eee;
+    padding: 4rem 1rem 4rem;
+}
+.date {
+    color: #555;
+    font-size: .8rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.menu {
+    top: 4.3rem;
+    right: .3rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem #0002;
+    position: absolute;
+    padding: .3rem;
+}
+.menu p {
+    font-size: .8rem;
+    margin: 1rem;
+    cursor: pointer;
+}
